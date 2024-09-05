@@ -20,7 +20,7 @@ function Intro() {
             animate={{opacity:1 , scale:1 }}
             transition={{
               type:"tween",
-              duration:0.2,
+              duration:0.4,
             }}
           >
             <Image src={profile} alt='Gokay profile' width="70" height="192" quality="95" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"/>
@@ -54,7 +54,7 @@ function Intro() {
         initial={{opacity:0,y:100}}
         animate={{opacity:1,y:0}}
         transition={{
-          delay:0.1,
+          delay:0.3,
         }}>
         <Link href="#contact" className='group bg-gray-800 text-white px-7 py-3 flex items-center gap-2 outline-none rounded-full focus:scale-110 hover:scale-105 hover:bg-gray-950 active:scale-105 transition'>
               Contact Me here <BsArrowRight className='opacity-70 group-hover:translate-x-2 transition'/>
